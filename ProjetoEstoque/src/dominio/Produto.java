@@ -12,7 +12,7 @@ public class Produto extends BaseParametro {
     public void setCodigoSubclasse(int codigoSubclasse) {
         this.codigoSubclasse = codigoSubclasse;
     }
-
+    
     public Double getValor() {
         return valor;
     }

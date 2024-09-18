@@ -1,5 +1,10 @@
+import visao.ClasseProdutoVisao;
+
 public class App {
     public static void main(String[] args) throws Exception {
-        System.out.println("Hello, World!");
+        ClasseProdutoVisao visao = new ClasseProdutoVisao();
+        visao.ExibirEmLinha();
+        visao.CriarListar();
+        visao.ExibirEmLinha();
     }
 }
